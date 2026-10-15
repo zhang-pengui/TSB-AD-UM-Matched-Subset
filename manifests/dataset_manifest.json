@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-15T19:37:17.359400+08:00",
+  "official_repository": "https://github.com/TheDatumOrg/TSB-AD",
+  "official_evaluation_list_commit": "6beac72e11d1155ade40870492c00d0d1cfdcaaf",
+  "official_signal_archive_version": "UNKNOWN",
+  "official_signal_archive_sha256": null,
+  "candidate_lists": {
+    "U": {
+      "count": 350,
+      "manifest": "manifests/u_eval_manifest.csv",
+      "sha256": "ac0aa00e9f55f26c1c112a31bea239e4964121934c42019627343b7e1cffe6a5"
+    },
+    "M": {
+      "count": 180,
+      "manifest": "manifests/m_eval_manifest.csv",
+      "sha256": "d8060a727b1308a5c1718aeb5b24db203525c751589751a1adcb4f42219274a5"
+    }
+  },
+  "m_channels_indexed": 5244,
+  "local_evaluation_equals_local_full_collection": 530,
+  "parser_policy": "tsbad-position-exact-v1;pandas-c-default;float64",
+  "anomaly_intervals": "0-based closed intervals",
+  "training_interval": "[0,tr)",
+  "evaluation_interval": "[0,T)",
+  "alignment": "position-index alignment",
+  "original_physical_identity_verification": "NOT_VERIFIED",
+  "source_instance_identifier_scope": "track-local filename IDs; not shared U/M physical identifiers",
+  "discovery": {
+    "pair_count": 52,
+    "u_views": 52,
+    "m_parents": 30,
+    "sources": 7,
+    "seal": "manifests/discovery_seal.json",
+    "seal_sha256": "e2204c7618103a450d8b96a3f428ffc8a8fc66304d29854fbec9dc682efc4e29"
+  },
+  "raw_signal_files_included": false,
+  "model_code_included": false,
+  "license_status": "LICENSE_REVIEW_REQUIRED",
+  "current_official_snapshot": {
+    "evidence_level": "LEVEL_2",
+    "current_snapshot_verification": "EXACT_BYTE_MATCH_ALL_530",
+    "current_snapshot": "manifests/public_current_official_snapshot.json",
+    "per_file_verification": "manifests/official_evaluation_verification.csv",
+    "historical_archive_identity": "UNKNOWN",
+    "upstream_authenticated_archive_checksum": "NOT_FOUND"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "license": "CC-BY-4.0",
+  "license_file": "LICENSES/CC-BY-4.0.txt",
+  "license_text_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "copyright_holder": "Peng Zhang",
+  "copyright_year": 2026,
+  "license_choice_status": "DECIDED_AND_IMPLEMENTED",
+  "scope_rule": "Only author-licensable original contributions and applicable author-held compilation/database rights in enumerated files; not blanket ownership of mixed file contents",
+  "covered_contributions": [
+    "original pair-mapping organization",
+    "hash-index organization",
+    "metadata compilation",
+    "frozen model-metric compilation",
+    "statistical compilation"
+  ],
+  "attribution": "Peng Zhang (2026), TSB-AD U/M Strict Matched Subset, relevant file title and source, CC BY 4.0; retain supplied notices and indicate changes",
+  "individual_facts_gain_no_new_exclusive_rights": true,
+  "exclusions": [
+    "Third-party source signals, labels and annotations",
+    "Third-party protected selection/arrangement and database rights",
+    "Third-party copyright/permission notices, legal texts and protected expressions",
+    "Source identifiers/first-anomaly/boundary fields insofar as third-party rights apply",
+    "MIT Python code and separately scoped original document prose"
+  ],
+  "third_party_conditions_preserved": true,
+  "third_party_scope_certified_cleared": false,
+  "public_release_approved": false,
+  "remote_operation_authorized": false,
+  "scientific_payload_changed": false,
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "sha256": "974826261e0839bd3aeb4cc472316f9aca48b3b5b8d9e075552c6fd5289c5539",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "docs/License_Matrix.csv",
+      "sha256": "a9b63136e7cc9ca609244333b27f5060c52e4ad0d8e1719a70fbeb0747c61aa5",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/all_discovered_candidate_pairs.csv",
+      "sha256": "742e189a21ee7712055ca743b31f23e5c42fee8b1d09d81b97fafee556f74076",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/cli_help_validation.json",
+      "sha256": "9d56571fff27c5173cee6e3768601ec73ea9c7d5ee501c0368318c2f68cba51c",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/dataset_manifest.json",
+      "sha256": "9fee1b9295d864e5d0f336ef9b06be6da4dd6ff57c9736cb853c6a5bbb48652b",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/discovery_seal.json",
+      "sha256": "e2204c7618103a450d8b96a3f428ffc8a8fc66304d29854fbec9dc682efc4e29",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/duplicate_groups.csv",
+      "sha256": "541d6ad5ffdac8c30a0fc873769ed0425ad4cc69cd4c77ec95734e3fc1bc4612",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/historical_pair_reconciliation.csv",
+      "sha256": "a0bd34dcd57f8fe4df267611ac2df8b2a2804cfb2e7356b01b76d784d0a7274e",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/historical_reconciliation_summary.json",
+      "sha256": "ab380a009f4ab96178cbbaa64991b3afd95db1a9bebecf7a855dcb2d0c22c220",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/m_eval_manifest.csv",
+      "sha256": "d8060a727b1308a5c1718aeb5b24db203525c751589751a1adcb4f42219274a5",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/metadata_review_required.csv",
+      "sha256": "24ded9aad1170ea920c5ef0b363e2bd463973c195c79e014ef7dd18b5d49c110",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/official_evaluation_verification.csv",
+      "sha256": "1ddb0dd7abf20784753a1c13bd2e469449b45875dd3a5b373d25c1932165bf2e",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/pairs_52.csv",
+      "sha256": "fcd7125b0f3521bb81734b2bf39f850b3303f8f013a22857e8ef2f2e858986a4",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/parents_30.csv",
+      "sha256": "071238f48096493c54d68a4dcad86a69a311946a34f54cc7201908a2c92c78ed",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/parser_errors.csv",
+      "sha256": "af2047a20b42140f7401dde1725b0852912e967dbb147a25e685d79da34b12fb",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/public_current_official_snapshot.json",
+      "sha256": "fa758cf2040828534de1e5f6258abd70d2c711b4aef4a5bba0cafbdff9c59898",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/u_eval_manifest.csv",
+      "sha256": "ac0aa00e9f55f26c1c112a31bea239e4964121934c42019627343b7e1cffe6a5",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/unmatched_u.csv",
+      "sha256": "622c2008df3d90bbc6015e2b9934561024a60b6266edc070b747c3b9b8ed7ff8",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "manifests/upstream_source_review.json",
+      "sha256": "377580dabf3a899668b9788d979bfd9c8924acd3c0759fb3959ad38609fb9df2",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "statistics/matched_parent_results.csv",
+      "sha256": "04165df2682dfe3c6d17402ef3b8c65bdbf5a57739249f63d6a1a82f1ec754d5",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "statistics/matched_seed_results.csv",
+      "sha256": "949cbb438361ebc15affb7bc10e5d395580ff86ed5da96d2f071928120fb379b",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "statistics/metric_source_provenance.json",
+      "sha256": "f7c9aba812db0d48d295b8ea3f528227d379c7390a5276487c3acf8ef890f6f3",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    },
+    {
+      "path": "statistics/statistics_reference.json",
+      "sha256": "9cbabf6cade3b117cd455b91d5f06018c558948f6465e3ea32f2c518fe6b0f76",
+      "license": "CC-BY-4.0",
+      "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
+    }
+  ]
+}

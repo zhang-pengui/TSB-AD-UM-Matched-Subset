@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite these reproducibility materials when used. Software authorship is distinct from manuscript authorship. This is a local, unpublished copy; remote upload remains unapproved."
+title: "TSB-AD U/M Strict Matched Subset: Reproducibility Materials for HA-PaAno"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Peng
+abstract: "Strict within-benchmark U/M channel-to-parent matching and frozen-metric statistical reproduction. Not an independent dataset, OOD benchmark, or full HA-PaAno implementation. Enumerated original Python code/tests are MIT; original prose and author-licensable mapping, metadata and statistical compilations are CC BY 4.0, with third-party exceptions. Remote upload remains unapproved."
+keywords:
+  - time-series anomaly detection
+  - reproducibility
+  - paired representation analysis

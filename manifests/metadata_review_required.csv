@@ -1,0 +1,2 @@
+track,relative_file_path,filename_first_anomaly,observed_first_anomaly,action
+U,032_WSD_id_4_WebService_tr_4559_1st_11822.csv,11822,4272,QUARANTINED_FROM_STRICT_MATCHING; input not modified

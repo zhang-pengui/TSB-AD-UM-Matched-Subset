@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "scope": "Current official endpoint snapshot, not historical archive identity",
+  "evidence_level": "LEVEL_2",
+  "lineage_status": "PARTIALLY_VERIFIED_HISTORICAL_IDENTITY",
+  "official_current_snapshot_verified": true,
+  "historical_download_archive_identity": "NOT_VERIFIED",
+  "upstream_signed_or_published_archive_checksum": "NOT_FOUND",
+  "by_track": {
+    "U": {
+      "EXACT_BYTE_MATCH": 350
+    },
+    "M": {
+      "EXACT_BYTE_MATCH": 180
+    }
+  },
+  "matched_subset_files": 82,
+  "matched_subset_status": {
+    "EXACT_BYTE_MATCH": 82
+  },
+  "historical_list_commit": "6beac72e11d1155ade40870492c00d0d1cfdcaaf",
+  "observed_current_code_commit": "ed74348e7876c9268b7a737c77f2f5f56f7fa458",
+  "code_commit_is_not_signal_archive_version": true,
+  "evaluation_list_identity": {
+    "U": "Official list bytes unchanged between commits; expanded manifest set identical, order differs",
+    "M": "Official list bytes unchanged between commits; expanded manifest set and order identical"
+  },
+  "archives": [
+    {
+      "archive_name": "TSB-AD-U.zip",
+      "official_url": "https://www.thedatum.org/datasets/TSB-AD-U.zip",
+      "download_date": "2026-10-15T12:43:47.009681+00:00",
+      "archive_sha256": "0c47020d3423723c70773736dbd800369f2b487328becbf339450d1ae5020961",
+      "archive_size": 72900868,
+      "official_version": "CURRENT_ENDPOINT_SNAPSHOT; historical archive identity unknown",
+      "verification_status": "CRC_AND_FILES_VERIFIED",
+      "csv_count": 870,
+      "file_count": 870,
+      "uncompressed_size": 329554266
+    },
+    {
+      "archive_name": "TSB-AD-M.zip",
+      "official_url": "https://www.thedatum.org/datasets/TSB-AD-M.zip",
+      "download_date": "2026-10-15T12:45:39.939246+00:00",
+      "archive_sha256": "7de86ac27f30eeb48d833bb061055670e3f3de07defd995cf2bd5db10ccc9a0d",
+      "archive_size": 540383983,
+      "official_version": "CURRENT_ENDPOINT_SNAPSHOT; historical archive identity unknown",
+      "verification_status": "CRC_AND_FILES_VERIFIED",
+      "csv_count": 200,
+      "file_count": 200,
+      "uncompressed_size": 2577892903
+    }
+  ],
+  "downloads": [
+    {
+      "track": "U",
+      "requested_url": "https://www.thedatum.org/datasets/TSB-AD-U.zip",
+      "final_url": "https://www.thedatum.org/datasets/TSB-AD-U.zip",
+      "download_start": "2026-10-15T12:43:18.095822+00:00",
+      "download_end": "2026-10-15T12:43:47.009681+00:00"
+    },
+    {
+      "track": "M",
+      "requested_url": "https://www.thedatum.org/datasets/TSB-AD-M.zip",
+      "final_url": "https://www.thedatum.org/datasets/TSB-AD-M.zip",
+      "download_start": "2026-10-15T12:43:47.111842+00:00",
+      "download_end": "2026-10-15T12:45:39.939246+00:00"
+    }
+  ]
+}

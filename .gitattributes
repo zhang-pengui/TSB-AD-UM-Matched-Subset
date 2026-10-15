@@ -1,0 +1,2 @@
+# Preserve the SHA256-bound payload bytes on Windows and other platforms.
+* -text

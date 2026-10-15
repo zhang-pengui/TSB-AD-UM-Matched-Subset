@@ -1,0 +1,32 @@
+[
+  {
+    "script": "scripts/discover_pairs.py",
+    "returncode": 0,
+    "help": "usage: discover_pairs.py [-h] --u-root U_ROOT --m-root M_ROOT --u-manifest\n                         U_MANIFEST --m-manifest M_MANIFEST --output-dir\n                         OUTPUT_DIR\n\nIndependent discovery CLI. Does not accept historical mapping or model\nmetrics.\n\noptions:\n  -h, --help            show this help message and exit\n  --u-root U_ROOT\n  --m-root M_ROOT\n  --u-manifest U_MANIFEST\n  --m-manifest M_MANIFEST\n  --output-dir OUTPUT_DIR\n",
+    "stderr": ""
+  },
+  {
+    "script": "scripts/verify_pairs.py",
+    "returncode": 0,
+    "help": "usage: verify_pairs.py [-h] --u-root U_ROOT --m-root M_ROOT --pairs PAIRS\n                       --output OUTPUT\n\nRe-read pair content, checksums and metadata. Exit 1 on any failed row.\n\noptions:\n  -h, --help       show this help message and exit\n  --u-root U_ROOT\n  --m-root M_ROOT\n  --pairs PAIRS\n  --output OUTPUT\n",
+    "stderr": ""
+  },
+  {
+    "script": "scripts/verify_dataset.py",
+    "returncode": 0,
+    "help": "usage: verify_dataset.py [-h] --u-root U_ROOT --m-root M_ROOT --u-manifest\n                         U_MANIFEST --m-manifest M_MANIFEST --output OUTPUT\n\nVerify the complete pinned candidate universe before independent discovery.\n\noptions:\n  -h, --help            show this help message and exit\n  --u-root U_ROOT\n  --m-root M_ROOT\n  --u-manifest U_MANIFEST\n  --m-manifest M_MANIFEST\n  --output OUTPUT\n",
+    "stderr": ""
+  },
+  {
+    "script": "scripts/reproduce_statistics.py",
+    "returncode": 0,
+    "help": "usage: reproduce_statistics.py [-h] --pairs PAIRS --results RESULTS\n                               --output-dir OUTPUT_DIR [--reference REFERENCE]\n\nCPU-only statistics from fixed pair mappings and exported frozen metrics. This\nis an independently written implementation, not a model/evaluator entry.\nMethod reference (not a runtime dependency): revision_experiments/tsbad_um_str\nict_paired_representation_audit/run_paired_audit.py SHA256:\nc608338cbefdf48d7e9a2042591182d033fc2262f12705e35718dcb47ce68d7e\n\noptions:\n  -h, --help            show this help message and exit\n  --pairs PAIRS\n  --results RESULTS\n  --output-dir OUTPUT_DIR\n  --reference REFERENCE\n                        Optional saved bootstrap JSON, used only after\n                        calculation\n",
+    "stderr": ""
+  },
+  {
+    "script": "scripts/check_release.py",
+    "returncode": 0,
+    "help": "usage: check_release.py [-h] [--root ROOT] [--output OUTPUT]\n\nContent-based local release gate. It never publishes or changes inputs.\n\noptions:\n  -h, --help       show this help message and exit\n  --root ROOT\n  --output OUTPUT\n",
+    "stderr": ""
+  }
+]

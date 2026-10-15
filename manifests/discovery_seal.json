@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "parser_version": "tsbad-position-exact-v1;pandas-c-default;float64",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "u_candidate_count": 350,
+  "m_candidate_count": 180,
+  "parsed_u": 350,
+  "parsed_m": 180,
+  "parser_errors": 0,
+  "signal_hash_candidates": 216,
+  "metadata_review_required": 1,
+  "strict_pairs": 52,
+  "unique_u": 52,
+  "unique_m_parents": 30,
+  "source_count": 7,
+  "ambiguous_candidate_rows": 161,
+  "rejected_candidate_rows": 3,
+  "model_metrics_read": false,
+  "historical_mapping_read": false,
+  "elapsed_seconds": 59.446151299984194,
+  "inputs": {
+    "u_manifest_sha256": "ac0aa00e9f55f26c1c112a31bea239e4964121934c42019627343b7e1cffe6a5",
+    "m_manifest_sha256": "d8060a727b1308a5c1718aeb5b24db203525c751589751a1adcb4f42219274a5"
+  },
+  "script_sha256": "898e425b36bb1b57feb3ae7e208ee6d8e1fdc38385630dcce260ff1801fd2cbe",
+  "core_sha256": "b5dda39252d4f0d3f67163ec632550a03338750edf09e2acca73161a881af1ab",
+  "outputs": {
+    "all_discovered_candidate_pairs.csv": "742e189a21ee7712055ca743b31f23e5c42fee8b1d09d81b97fafee556f74076",
+    "duplicate_groups.csv": "541d6ad5ffdac8c30a0fc873769ed0425ad4cc69cd4c77ec95734e3fc1bc4612",
+    "m_eval_manifest.csv": "d8060a727b1308a5c1718aeb5b24db203525c751589751a1adcb4f42219274a5",
+    "metadata_review_required.csv": "24ded9aad1170ea920c5ef0b363e2bd463973c195c79e014ef7dd18b5d49c110",
+    "pairs_discovered.csv": "fcd7125b0f3521bb81734b2bf39f850b3303f8f013a22857e8ef2f2e858986a4",
+    "parents_discovered.csv": "920fed22f0e0963b6a75b148a63ab166dbd40dd1401b13980c728d95f479a9ca",
+    "parser_errors.csv": "af2047a20b42140f7401dde1725b0852912e967dbb147a25e685d79da34b12fb",
+    "u_eval_manifest.csv": "ac0aa00e9f55f26c1c112a31bea239e4964121934c42019627343b7e1cffe6a5",
+    "unmatched_u.csv": "622c2008df3d90bbc6015e2b9934561024a60b6266edc070b747c3b9b8ed7ff8"
+  }
+}

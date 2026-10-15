@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-10-15",
+  "purpose": "Source version and license review; no bulk dataset download or publication",
+  "local_paths_are": "relative evidence identifiers in the read-only research source; not public runtime dependencies",
+  "official_repository": "https://github.com/TheDatumOrg/TSB-AD",
+  "official_data_entrypoints": {
+    "U": "https://www.thedatum.org/datasets/TSB-AD-U.zip",
+    "M": "https://www.thedatum.org/datasets/TSB-AD-M.zip",
+    "bulk_download_executed": false,
+    "historical_official_archive_sha256": null,
+    "historical_official_signal_archive_version": "UNKNOWN",
+    "official_signal_bytes_match_local": "NOT_VERIFIED"
+  },
+  "code_snapshots": [
+    {
+      "commit_from_zip_comment": "e0975a5f7d3e65ab77e9fab24d1b5b51acda8f48",
+      "commit_url": "https://github.com/TheDatumOrg/TSB-AD/commit/e0975a5f7d3e65ab77e9fab24d1b5b51acda8f48",
+      "sha256": "9f905c13240c4172a9738a8d4a0fd0678861c89c441bc5e117e29700105423eb",
+      "size_bytes": 9673863,
+      "is_full_signal_archive": false,
+      "bundled_U_signal_csv_count": 1,
+      "bundled_M_signal_csv_count": 1
+    },
+    {
+      "commit_from_zip_comment": "6beac72e11d1155ade40870492c00d0d1cfdcaaf",
+      "commit_url": "https://github.com/TheDatumOrg/TSB-AD/commit/6beac72e11d1155ade40870492c00d0d1cfdcaaf",
+      "sha256": "04d2af87a02262593c61125e08e82b3f3a50314b9c8b73792d5fe1ff5413ad01",
+      "size_bytes": 9734677,
+      "is_full_signal_archive": false,
+      "bundled_U_signal_csv_count": 1,
+      "bundled_M_signal_csv_count": 1
+    }
+  ],
+  "small_official_text_byte_verifications": [
+    {
+      "name": "README.md",
+      "official_url": "https://raw.githubusercontent.com/TheDatumOrg/TSB-AD/6beac72e11d1155ade40870492c00d0d1cfdcaaf/README.md",
+      "sha256": "84cc2d4143065df08c51add82a204693746648a2f10100bae8874c347c721064",
+      "size_bytes": 16586,
+      "local_snapshot_exact": true
+    },
+    {
+      "name": "LICENSE",
+      "official_url": "https://raw.githubusercontent.com/TheDatumOrg/TSB-AD/6beac72e11d1155ade40870492c00d0d1cfdcaaf/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "size_bytes": 11357,
+      "local_snapshot_exact": true
+    },
+    {
+      "name": "Datasets/File_List/TSB-AD-U-Eva.csv",
+      "official_url": "https://raw.githubusercontent.com/TheDatumOrg/TSB-AD/6beac72e11d1155ade40870492c00d0d1cfdcaaf/Datasets/File_List/TSB-AD-U-Eva.csv",
+      "sha256": "6f4e1d4ddbde195f9687f2c5a951b51faff54dda4b658d85f0c07e3e2879615a",
+      "size_bytes": 16205,
+      "local_snapshot_exact": true,
+      "evaluation_names": 350
+    },
+    {
+      "name": "Datasets/File_List/TSB-AD-M-Eva.csv",
+      "official_url": "https://raw.githubusercontent.com/TheDatumOrg/TSB-AD/6beac72e11d1155ade40870492c00d0d1cfdcaaf/Datasets/File_List/TSB-AD-M-Eva.csv",
+      "sha256": "ef6353b5aad8519fb2e5ff366ae21cf626ecd56d1a05942ac3b5c02d9e4b32a4",
+      "size_bytes": 8110,
+      "local_snapshot_exact": true,
+      "evaluation_names": 180
+    }
+  ],
+  "local_csv_directory_counts": {
+    "U_pool": 870,
+    "M_pool": 200,
+    "U_evaluation": 350,
+    "M_evaluation": 180
+  },
+  "historical_local_provenance": {
+    "sha256": "21ddbbcaa29c39e1f7d8b13f842a96dba024bdce603499244ebbbe5530a8c9e0",
+    "size_bytes": 3947,
+    "saved_claim": "M split same-name bytes equal local 200-file pool; does not prove official archive byte identity",
+    "current_full_signal_reverification_by_this_subreview": false
+  },
+  "license_layers": {
+    "TSB_AD_code": "Apache-2.0",
+    "TSB_AD_preprocessing_curation": "Apache-2.0 per explicit README statement; not blanket original-data permission",
+    "original_data": "source-specific; see dataset_licenses",
+    "new_scripts_license": "AUTHOR_LICENSE_DECISION_REQUIRED",
+    "mapping_and_derived_statistics_license": "AUTHOR_LICENSE_DECISION_REQUIRED; review original database/annotation obligations",
+    "legal_assurance": false
+  },
+  "dataset_licenses": [
+    {
+      "source": "Daphnet",
+      "official_url": "https://archive.ics.uci.edu/dataset/245/daphnet%2Bfreezing%2Bof%2Bgait",
+      "data_license_observed": "CC BY 4.0",
+      "scope_note": "UCI dataset-specific statement; preserve attribution and modifications notices",
+      "raw_signals_redistributed": false
+    },
+    {
+      "source": "Exathlon",
+      "official_url": "https://github.com/exathlonbenchmark/exathlon#data-license",
+      "code_license_observed": "Apache-2.0",
+      "data_license_observed": "CC BY-NC-SA 4.0",
+      "conflict": "TSB-AD homepage labels Apache-2.0; source-specific Data License is more specific for dataset",
+      "review_status": "LICENSE_REVIEW_REQUIRED",
+      "raw_signals_redistributed": false
+    },
+    {
+      "source": "LTDB",
+      "official_url": "https://physionet.org/content/ltdb/1.0.0/",
+      "license_url": "https://physionet.org/content/ltdb/view-license/1.0.0/",
+      "data_license_observed": "Open Data Commons Attribution License v1.0",
+      "upstream_version": "1.0.0",
+      "scope_note": "Original database license; local TSB-AD transformation lineage not independently reconstructed",
+      "raw_signals_redistributed": false
+    },
+    {
+      "source": "SVDB",
+      "official_url": "https://physionet.org/content/svdb/1.0.0/",
+      "data_license_observed": "Open Data Commons Attribution License v1.0",
+      "upstream_version": "1.0.0",
+      "scope_note": "Original database license; local TSB-AD transformation lineage not independently reconstructed",
+      "raw_signals_redistributed": false
+    },
+    {
+      "source": "SMD",
+      "official_url": "https://github.com/NetManAIOps/OmniAnomaly",
+      "license_url": "https://github.com/NetManAIOps/OmniAnomaly/blob/master/LICENSE",
+      "repository_license_observed": "MIT",
+      "scope_note": "SMD resides in original repository; no blanket permission inferred for all transformed/relabeled TSB-AD materials",
+      "raw_signals_redistributed": false
+    },
+    {
+      "source": "SMAP",
+      "official_url": "https://github.com/khundman/telemanom#raw-experiment-data",
+      "license_url": "https://github.com/khundman/telemanom/blob/master/LICENSE.txt",
+      "license_observed": "Caltech copyright with redistribution conditions and disclaimer",
+      "conflict": "README says Apache-2.0; actual LICENSE.txt differs and software/data scope is unresolved",
+      "review_status": "LICENSE_REVIEW_REQUIRED",
+      "raw_signals_redistributed": false
+    },
+    {
+      "source": "MSL",
+      "official_url": "https://github.com/khundman/telemanom#raw-experiment-data",
+      "license_url": "https://github.com/khundman/telemanom/blob/master/LICENSE.txt",
+      "license_observed": "Caltech copyright with redistribution conditions and disclaimer",
+      "conflict": "README says Apache-2.0; actual LICENSE.txt differs and software/data scope is unresolved",
+      "review_status": "LICENSE_REVIEW_REQUIRED",
+      "raw_signals_redistributed": false
+    }
+  ],
+  "license_subreview_readiness": "NOT_READY",
+  "release_blockers": [
+    "Historical full signal archive version/hash and local lineage not independently established",
+    "Source-specific redistribution scope remains under review",
+    "Authors have not selected license for new scripts/mapping/statistics",
+    "Overall release additionally depends on independent matching, statistics, tests, and privacy checks"
+  ],
+  "operations": {
+    "original_project_modified": false,
+    "bulk_data_downloaded": false,
+    "training_started": false,
+    "inference_started": false,
+    "evaluator_executed": false,
+    "published": false,
+    "license_assigned_without_author_decision": false
+  },
+  "record_scope": "Historical first-stage review retained; current source/permission investigations summarized in added fields",
+  "current_official_snapshot": {
+    "status": "VERIFIED_CURRENT_BYTES",
+    "evidence_level": "LEVEL_2",
+    "manifest": "manifests/public_current_official_snapshot.json",
+    "historical_identity": "NOT_VERIFIED"
+  },
+  "current_license_matrix": "docs/License_Matrix.csv",
+  "historical_official_data_entrypoint_record_unchanged": true
+}

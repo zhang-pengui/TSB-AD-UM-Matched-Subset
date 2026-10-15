@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "license": "MIT",
+  "license_file": "LICENSES/MIT.txt",
+  "license_text_sha256": "1a2a160e3681918f7412c6549a5b1b19a63bf73d98c2cdf3ff4610d1499c0c1d",
+  "copyright_holder": "Peng Zhang",
+  "copyright_year": 2026,
+  "authorship_basis": "AUTHOR_DECLARED",
+  "license_choice_status": "LICENSE_CHOICE_DECIDED",
+  "public_release_approved": false,
+  "scope_rule": "Only the exact Python files below. Separate documents, CSV, JSON, third-party data and other content are excluded.",
+  "files": [
+    {
+      "path": "scripts/check_release.py",
+      "sha256": "00ca97ca6e0557d8950b55503b4fd4611e7fdd06b9932db09f0e4c6787a46e1d"
+    },
+    {
+      "path": "scripts/discover_pairs.py",
+      "sha256": "898e425b36bb1b57feb3ae7e208ee6d8e1fdc38385630dcce260ff1801fd2cbe"
+    },
+    {
+      "path": "scripts/matching_core.py",
+      "sha256": "b5dda39252d4f0d3f67163ec632550a03338750edf09e2acca73161a881af1ab"
+    },
+    {
+      "path": "scripts/reproduce_statistics.py",
+      "sha256": "bdab202f81e9f44c0a1d585ccc2abc7b80e1494b5e0384a14da7d0921b61263e"
+    },
+    {
+      "path": "scripts/run_cpu_tests.py",
+      "sha256": "45391e720138e8e5b042d3744d22655d8be65b238eb0b4193f6ea1341400289e"
+    },
+    {
+      "path": "scripts/verify_dataset.py",
+      "sha256": "2661a6973d300a6b5813576bcbb43fa9f6adae4819d2cb3422a28bfb675139ea"
+    },
+    {
+      "path": "scripts/verify_pairs.py",
+      "sha256": "8b5f9acc893d11fa6ca1c7601cd314d91685d82493ef1fdce47f89fda06d8a63"
+    },
+    {
+      "path": "tests/test_dataset_verification.py",
+      "sha256": "0c1b453ed786a053ae4da6c5403818c854035bd0f8c868b7c5c4265f810b6098"
+    },
+    {
+      "path": "tests/test_discovery.py",
+      "sha256": "2c5b9af583c5d854558fbbad7792f63e3ecf785a32843546c74c0c7856e90e37"
+    },
+    {
+      "path": "tests/test_duplicate_handling.py",
+      "sha256": "93c8c707d811cadf56bd800776c99e49dbf003aca65c3cf29e56f05917ab3033"
+    },
+    {
+      "path": "tests/test_pair_verification.py",
+      "sha256": "805666e96f4f7cec80cf3e1f41406ea2b74c9a08473066a948f27f67eb82506f"
+    },
+    {
+      "path": "tests/test_release.py",
+      "sha256": "c89ab5a99e0c3c27d83bb44b83609adac759359036fca92757cc6715f8f84727"
+    },
+    {
+      "path": "tests/test_release_gate.py",
+      "sha256": "08a6e4f67781d814be2b5042e4b591a2db1a90dff615e06fa111c3d36d271474"
+    },
+    {
+      "path": "tests/test_statistics.py",
+      "sha256": "e1dafffa64c25d6efc90636bb8f3527340f81c4b59238f8c471b35a042cb3447"
+    },
+    {
+      "path": "tests/test_statistics_cli.py",
+      "sha256": "8396c65341a35fceea46661bd535983807a5fde19ad85f2b906dc0676d1976fe"
+    }
+  ]
+}

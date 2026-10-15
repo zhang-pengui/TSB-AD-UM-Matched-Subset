@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "purpose": "Sanitized public decision summary, not private approval evidence",
+  "status": "PUBLIC_RELEASE_NOT_APPROVED",
+  "public_release_approved": false,
+  "code_license_choice": "MIT",
+  "code_license_choice_status": "LICENSE_CHOICE_DECIDED",
+  "code_license_scope": "Only Python files explicitly listed in code_license_scope.json",
+  "authorship_basis": "AUTHOR_DECLARED; no independent legal certification",
+  "document_license_choice": "CC-BY-4.0",
+  "document_license_choice_status": "LICENSE_CHOICE_DECIDED",
+  "document_license_scope": "Only author-owned original prose in document_license_scope.json; third-party and data exceptions",
+  "data_metadata_statistics_license_choice": "CC-BY-4.0",
+  "third_party_scope": "EXCEPTIONS_PRESERVED_SPECIFIC_SCOPE_UNCERTAINTIES_DISCLOSED",
+  "private_evidence_distributed": false,
+  "private_review_policy": "The author-side checker may use an explicitly supplied review directory outside this package. Internal statements, emails and signatures are not public payload. A status string alone never grants publication permission.",
+  "scope_sha256": "0d67f85c18fb8917b8b56496e8904df24f0533b7fdb581c35d9c289d62b9e303",
+  "data_license_choice_status": "DECIDED_AND_IMPLEMENTED",
+  "data_license_scope": "Only author-licensable original contributions in data_license_scope.json; third-party exceptions preserved",
+  "local_preparation_authorized": true,
+  "remote_repository_creation_authorized": false,
+  "remote_upload_authorized": false
+}

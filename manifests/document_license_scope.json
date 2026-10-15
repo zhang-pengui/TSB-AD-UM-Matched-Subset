@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "license": "CC-BY-4.0",
+  "license_file": "LICENSES/CC-BY-4.0.txt",
+  "license_text_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Peng Zhang (2026); document title and original source when supplied; license link; retain notices and indicate changes",
+  "no_additional_noncommercial_or_sharealike_condition": true,
+  "public_release_approved": false,
+  "exclusions": [
+    "Third-party protected expressions, license notices and original data",
+    "Mapping CSV and source filename/hash manifests",
+    "Frozen model metrics and aggregate CSV/JSON",
+    "Python code (separate MIT scope)",
+    "CITATION and other JSON/CSV/metadata files not automatically included"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "358521ff156fca33e57aee5007724839b262c050d5920bc12f422b6f9c065eb2",
+      "license": "CC-BY-4.0",
+      "copyright_holder": "Peng Zhang",
+      "copyright_year": 2026,
+      "covered_content": "Original narrative and reproduction commands only. Frozen result values and source counts are factual data, not newly relicensed; third-party titles, links and source rights excluded.",
+      "third_party_expression_review": "Full current text read; no unmarked substantial upstream prose identified. Names, facts, citations and notices are explicitly excepted; not a legal originality guarantee."
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "sha256": "126275b282bea9395749512acf5ce2f4bb17bd00e4e1914376743bab2e96c5af",
+      "license": "CC-BY-4.0",
+      "copyright_holder": "Peng Zhang",
+      "copyright_year": 2026,
+      "covered_content": "Original tutorial explanations and command examples only; third-party inputs and generated data are excluded.",
+      "third_party_expression_review": "Full current text read; no unmarked substantial upstream prose identified. Names, facts, citations and notices are explicitly excepted; not a legal originality guarantee."
+    },
+    {
+      "path": "DATA_SOURCES.md",
+      "sha256": "87921a259547659a7df55d880db6a4f91f80abfba0c2b8dc9c794fa6b8b2ff52",
+      "license": "CC-BY-4.0",
+      "copyright_holder": "Peng Zhang",
+      "copyright_year": 2026,
+      "covered_content": "Original provenance explanation only. Official names, URLs, archive/file hashes and third-party source/metadata rights are not relicensed.",
+      "third_party_expression_review": "Full current text read; no unmarked substantial upstream prose identified. Names, facts, citations and notices are explicitly excepted; not a legal originality guarantee."
+    },
+    {
+      "path": "RELEASE_READINESS.md",
+      "sha256": "95ff4d766d1cc7d30d728cd05101fd61e3e0e3dd6946f80ec5f754d7b0ecfb44",
+      "license": "CC-BY-4.0",
+      "copyright_holder": "Peng Zhang",
+      "copyright_year": 2026,
+      "covered_content": "Original standalone technical/explanatory prose only; underlying factual values, third-party expressions/rights, source data and generated outputs are not newly licensed.",
+      "third_party_expression_review": "Full current text read; no unmarked substantial upstream prose identified. Names, facts, citations and notices are explicitly excepted; not a legal originality guarantee."
+    },
+    {
+      "path": "LICENSING.md",
+      "sha256": "f54ba6088df8e59f45ac02fa8a88c13995437b3017598bbca58fa80b487d9d91",
+      "license": "CC-BY-4.0",
+      "copyright_holder": "Peng Zhang",
+      "copyright_year": 2026,
+      "covered_content": "Original scope explanation only; no rights over the MIT/CC license legal texts or excluded non-document materials are asserted.",
+      "third_party_expression_review": "Full current text read; no unmarked substantial upstream prose identified. Names, facts, citations and notices are explicitly excepted; not a legal originality guarantee."
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "2ce56692ed172613f1115f2047047f19c60f17f043a8e9d68acc648260dffed9",
+      "license": "CC-BY-4.0",
+      "copyright_holder": "Peng Zhang",
+      "copyright_year": 2026,
+      "covered_content": "Original editorial summaries only. Original copyright/permission notices, creator credits and source-specific terms retain their original status.",
+      "third_party_expression_review": "Full current text read; no unmarked substantial upstream prose identified. Names, facts, citations and notices are explicitly excepted; not a legal originality guarantee."
+    },
+    {
+      "path": "docs/MATCHING_PROTOCOL.md",
+      "sha256": "f4c84944e16d4f594b6d1ca24dd3baf17209df0d9fa7c1e658afd33a1528cf47",
+      "license": "CC-BY-4.0",
+      "copyright_holder": "Peng Zhang",
+      "copyright_year": 2026,
+      "covered_content": "Original standalone technical/explanatory prose only; underlying factual values, third-party expressions/rights, source data and generated outputs are not newly licensed.",
+      "third_party_expression_review": "Full current text read; no unmarked substantial upstream prose identified. Names, facts, citations and notices are explicitly excepted; not a legal originality guarantee."
+    },
+    {
+      "path": "docs/STATISTICAL_PROTOCOL.md",
+      "sha256": "e5e51263bfdc515a7270bc7a62ca7c9e20033b9464fadbe1683bb71a2f6fc15f",
+      "license": "CC-BY-4.0",
+      "copyright_holder": "Peng Zhang",
+      "copyright_year": 2026,
+      "covered_content": "Original standalone technical/explanatory prose only; underlying factual values, third-party expressions/rights, source data and generated outputs are not newly licensed.",
+      "third_party_expression_review": "Full current text read; no unmarked substantial upstream prose identified. Names, facts, citations and notices are explicitly excepted; not a legal originality guarantee."
+    },
+    {
+      "path": "docs/ENVIRONMENT.md",
+      "sha256": "e5c39a13d2da03b0a9a733402323751014cc34aecd750dbd49117980aed0d664",
+      "license": "CC-BY-4.0",
+      "copyright_holder": "Peng Zhang",
+      "copyright_year": 2026,
+      "covered_content": "Original standalone technical/explanatory prose only; underlying factual values, third-party expressions/rights, source data and generated outputs are not newly licensed.",
+      "third_party_expression_review": "Full current text read; no unmarked substantial upstream prose identified. Names, facts, citations and notices are explicitly excepted; not a legal originality guarantee."
+    },
+    {
+      "path": "docs/LIMITATIONS.md",
+      "sha256": "266ae7b69e3ee704964016c31666ab06024fcd5bed26c2c08ce37ff37c8b194b",
+      "license": "CC-BY-4.0",
+      "copyright_holder": "Peng Zhang",
+      "copyright_year": 2026,
+      "covered_content": "Original standalone technical/explanatory prose only; underlying factual values, third-party expressions/rights, source data and generated outputs are not newly licensed.",
+      "third_party_expression_review": "Full current text read; no unmarked substantial upstream prose identified. Names, facts, citations and notices are explicitly excepted; not a legal originality guarantee."
+    },
+    {
+      "path": "docs/LICENSE_NOTES.md",
+      "sha256": "80e74eeaf9dd63f719b5ae0a2354250670696ed96f011e07cd305bc15d2903b1",
+      "license": "CC-BY-4.0",
+      "copyright_holder": "Peng Zhang",
+      "copyright_year": 2026,
+      "covered_content": "Original explanatory commentary only; quoted license names, actual third-party license texts and covered source material are excluded.",
+      "third_party_expression_review": "Full current text read; no unmarked substantial upstream prose identified. Names, facts, citations and notices are explicitly excepted; not a legal originality guarantee."
+    }
+  ],
+  "data_license_note": "Separate author-owned data/compilation rights are now CC-BY-4.0 in data_license_scope.json; not implied by document scope. Third-party rights remain excluded.",
+  "modification_note": "2026-10-16 local release preparation: author data grant and workflow wording aligned; scientific values unchanged."
+}

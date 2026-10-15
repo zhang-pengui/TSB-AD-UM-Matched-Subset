@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.cache/
+.venv/
+raw_data/
+data/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.pkl
+*.pickle
+local_paths.json

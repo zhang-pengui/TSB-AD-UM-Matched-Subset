@@ -1,0 +1,3 @@
+# Exact CPU parser/statistics environment used for this local validation.
+numpy==2.3.5
+pandas==3.0.1

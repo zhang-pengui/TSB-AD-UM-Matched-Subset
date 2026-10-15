@@ -1,0 +1,12 @@
+{
+  "historical_rows": 52,
+  "historical_unique_pairs": 52,
+  "independent_rows": 52,
+  "shared": 52,
+  "extra": 0,
+  "historical_not_strict": 0,
+  "historical_value_valid": 52,
+  "exact_set_match": true,
+  "history_sha256": "8428d1d45063d6a8c2670b3c1ed5d64d40f3f60715227e12467d466ccfae17a1",
+  "discovery_seal_sha256": "e2204c7618103a450d8b96a3f428ffc8a8fc66304d29854fbec9dc682efc4e29"
+}
