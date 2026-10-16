@@ -29,7 +29,7 @@ Archive URLs do not themselves identify historical bytes. A locally computed dow
 | TSB-AD-U.zip | 72900868 | 329554266 | `0c47020d3423723c70773736dbd800369f2b487328becbf339450d1ae5020961` | 2026-10-15T12:43:47.009681+00:00 |
 | TSB-AD-M.zip | 540383983 | 2577892903 | `7de86ac27f30eeb48d833bb061055670e3f3de07defd995cf2bd5db10ccc9a0d` | 2026-10-15T12:45:39.939246+00:00 |
 
-These are locally calculated acquisition hashes, not upstream-authenticated historical checksums. The original historical download archive identity and a signed/published upstream archive checksum remain unverified. Thus current content equality is established, but LEVEL 1 historical-version closure is not claimed. The release remains NOT_READY because data/derivative license scope and author licensing decisions are unresolved.
+These are locally calculated acquisition hashes, not upstream-authenticated historical checksums. The original historical download archive identity and a signed/published upstream archive checksum remain unverified. Thus current content equality is established, but LEVEL 1 historical-version closure is not claimed. The repository is now PUBLIC and the author's scoped MIT/CC BY 4.0 choices are implemented; specific third-party scope uncertainties remain. The unchanged pre-publication evidence gate can still report NOT_READY, which is separate from repository visibility and this source-content verification.
 
 `manifests/public_current_official_snapshot.json` records the current archive snapshot; `manifests/official_evaluation_verification.csv` records all 530 per-file comparisons. Both archives extract under `TSB-AD-U/` or `TSB-AD-M/`; use those directories as the CLI roots. No signals or archives are included in this candidate.
 
@@ -41,6 +41,6 @@ CSV input must preserve ordered numeric signal columns and one binary label colu
 
 ## Rights
 
-The seven matched source families are Daphnet, Exathlon, LTDB, MSL, SMAP, SMD, and SVDB. Their licenses are not interchangeable. TSB-AD's code and curation license is not blanket permission for original signals. See `docs/LICENSE_NOTES.md`; the package supplies manifests and frozen metric exports only, with final redistribution authorization still pending.
+The seven matched source families are Daphnet, Exathlon, LTDB, MSL, SMAP, SMD, and SVDB. Their licenses are not interchangeable. TSB-AD's code and curation license is not blanket permission for original signals. See `docs/LICENSE_NOTES.md`; the public package supplies manifests and frozen metric exports only. Publication does not settle the disclosed source-annotation/boundary/index or derived-material scope questions.
 
 Original explanatory prose: Copyright (c) 2026 Peng Zhang, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); retain attribution/license notices and indicate changes. Official source names, URLs, file/archive hashes, underlying data and third-party rights are not newly licensed by this notice; see [LICENSING.md](LICENSING.md).

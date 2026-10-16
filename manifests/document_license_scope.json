@@ -18,7 +18,7 @@
   "files": [
     {
       "path": "README.md",
-      "sha256": "358521ff156fca33e57aee5007724839b262c050d5920bc12f422b6f9c065eb2",
+      "sha256": "584fb74f45b72e1a557534d60a9cb6a9e7d14f2dc93d5a537f19d226e7155a70",
       "license": "CC-BY-4.0",
       "copyright_holder": "Peng Zhang",
       "copyright_year": 2026,
@@ -27,7 +27,7 @@
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "sha256": "126275b282bea9395749512acf5ce2f4bb17bd00e4e1914376743bab2e96c5af",
+      "sha256": "670265361cefc1da8a762be9e659a172ce62bcbbc71bd42d0d4b0d8a88965ad2",
       "license": "CC-BY-4.0",
       "copyright_holder": "Peng Zhang",
       "copyright_year": 2026,
@@ -36,7 +36,7 @@
     },
     {
       "path": "DATA_SOURCES.md",
-      "sha256": "87921a259547659a7df55d880db6a4f91f80abfba0c2b8dc9c794fa6b8b2ff52",
+      "sha256": "0413bbfdfa5b75b55379e4e94da9030081c1cbc8a85e0b94b819346416be4807",
       "license": "CC-BY-4.0",
       "copyright_holder": "Peng Zhang",
       "copyright_year": 2026,
@@ -45,7 +45,7 @@
     },
     {
       "path": "RELEASE_READINESS.md",
-      "sha256": "95ff4d766d1cc7d30d728cd05101fd61e3e0e3dd6946f80ec5f754d7b0ecfb44",
+      "sha256": "07c92f9f5041bf6f2bb6b0239375975a770fef4d320d00861f83c91bb2c3d784",
       "license": "CC-BY-4.0",
       "copyright_holder": "Peng Zhang",
       "copyright_year": 2026,
@@ -54,7 +54,7 @@
     },
     {
       "path": "LICENSING.md",
-      "sha256": "f54ba6088df8e59f45ac02fa8a88c13995437b3017598bbca58fa80b487d9d91",
+      "sha256": "5fb4358f9c62cb60997ba9c5a0c3538ef8039de3a5070824f1e182bba571e3fc",
       "license": "CC-BY-4.0",
       "copyright_holder": "Peng Zhang",
       "copyright_year": 2026,
@@ -63,7 +63,7 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "2ce56692ed172613f1115f2047047f19c60f17f043a8e9d68acc648260dffed9",
+      "sha256": "dc79db4be72d9207846d0e15d9feb04713fee4f5464cc0effde9df2182c61935",
       "license": "CC-BY-4.0",
       "copyright_holder": "Peng Zhang",
       "copyright_year": 2026,
@@ -108,7 +108,7 @@
     },
     {
       "path": "docs/LICENSE_NOTES.md",
-      "sha256": "80e74eeaf9dd63f719b5ae0a2354250670696ed96f011e07cd305bc15d2903b1",
+      "sha256": "f6f427fea785336d3bd7525dcdbe728f07133ba0b4b461a087ce3e9f8430f690",
       "license": "CC-BY-4.0",
       "copyright_holder": "Peng Zhang",
       "copyright_year": 2026,
@@ -117,5 +117,15 @@
     }
   ],
   "data_license_note": "Separate author-owned data/compilation rights are now CC-BY-4.0 in data_license_scope.json; not implied by document scope. Third-party rights remain excluded.",
-  "modification_note": "2026-10-16 local release preparation: author data grant and workflow wording aligned; scientific values unchanged."
+  "modification_note": "2026-10-16 local release preparation: author data grant and workflow wording aligned; scientific values unchanged.",
+  "approval_flags_context": "Historical pre-publication approval flags are retained below; they do not describe current GitHub visibility or certify third-party rights clearance. Current PUBLIC status is recorded separately.",
+  "current_repository_status": {
+    "url": "https://github.com/zhang-pengui/TSB-AD-UM-Matched-Subset",
+    "visibility": "PUBLIC",
+    "default_branch": "main",
+    "verified_on": "2026-10-16",
+    "verification_basis": "GitHub API; verification date is not the original publication date",
+    "rights_clearance_inferred": false
+  },
+  "public_documentation_update_note": "2026-10-16: synchronize current public-status prose and byte hashes; author grant and third-party exceptions unchanged."
 }

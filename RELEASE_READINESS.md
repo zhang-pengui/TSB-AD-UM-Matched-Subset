@@ -1,25 +1,41 @@
-# Release readiness
+# Repository status and release-gate context
 
-RELEASE_READINESS: **NOT_READY**
+## Current repository status
 
-This is the public-release gate, not the result of local integrity/CPU checks. Remote repository creation, upload/push and public visibility are not authorized in this preparation stage. A separately reviewed private-repository operation remains a future user decision; private visibility does not waive applicable source conditions.
+The repository has been created and uploaded and is **PUBLIC** at [zhang-pengui/TSB-AD-UM-Matched-Subset](https://github.com/zhang-pengui/TSB-AD-UM-Matched-Subset). Its default branch is `main`, available to external readers. This status was verified through the GitHub API on **2026-10-16**; that verification date is not asserted to be the original publication date.
 
-This is a local candidate, not a published release. No remote repository, release tag, DOI, or public data upload has been created.
+The author has authorized this documentation, citation, and release-metadata maintenance commit and push. That limited maintenance authorization neither changes repository visibility nor certifies third-party rights. No tagged software release, release version, or DOI is asserted by this update.
 
-## Disclosed source limitation (not an automatic release failure)
+## Reproducibility scope
 
-Current official archives match all 530 frozen evaluation files exactly, including all 82 subset files: **LEVEL 2**. Original historical archive identity and an upstream-authenticated archive checksum remain unverified; LEVEL 1 is not claimed. This bounded historical gap must remain disclosed. Correctly disclosed LEVEL 2 evidence can pass the source gate with limitations; it neither grants nor prevents publication permission by itself.
+The public materials contain **52 U channel views / 30 M parent instances / 7 sources**, candidate discovery and pair-verification tools, strict mapping manifests, **984 frozen three-seed metric rows**, and statistical reproduction procedures preserving **18 bootstrap slots**. They support the strict same-instance U/M analysis in HA-PaAno within TSB-AD.
 
-## Blocking decisions
+They do not contain original signals, model checkpoints, the complete HA-PaAno training/inference implementation, a complete ten-seed experimental release package, or independent OOD validation. The 52 views represent 30 parents rather than 52 independent parents. The hierarchical CI crosses zero; position-index matching does not independently verify physical devices or timestamps. No causal channel effect or universal module preference follows from these materials.
 
-1. Remaining source-scope questions concern specific source annotation/boundary metadata and possible substantial source-index/database extraction, especially external SMAP/MSL data/annotation terms. New matching facts, locally calculated digests and independent model/statistical numbers are not all automatically source adaptations or subject to extra written-permission requirements. Where existing licenses cover redistribution, satisfy those conditions; substantive remaining scope gaps stay **NEEDS_RIGHTS_HOLDER_CONFIRMATION** rather than treating every output as unresolved.
-2. The author has declared independent development with Codex, no other direct code developers, and no applicable institutional/project agreement restrictions. MIT covers 15 enumerated original Python code/tests. CC BY 4.0 covers original prose in 11 inventoried documents and the author's licensable original pair-mapping/hash-index organization, metadata compilation, frozen model-metric compilation and statistical compilation. These choices are decided and implemented, with copyright 2026 Peng Zhang. Third-party exceptions remain explicit; public-release approval is separate and still withheld.
-3. Final author approval must cover the exact proposed publication inventory. The sanitized record in `manifests/release_authorization.json` states PUBLIC_RELEASE_NOT_APPROVED; private evidence stays outside this package. Final human release review is still required. The presence of the scoped MIT license does not authorize a GitHub upload.
+## Technical verification
 
-## Technical and scientific boundaries
+Technical evidence consists of CPU unit tests, CLI help checks, hash-bound file-integrity checks, and reproduction of the 984-row / 18-slot frozen statistics. Current maintenance reruns these lightweight checks without signal processing, model training, inference, or evaluator execution. The exact environment remains documented in [docs/ENVIRONMENT.md](docs/ENVIRONMENT.md); a same-machine check is not independent third-party reproduction.
 
-Core discovery, verification, statistics, and inherited tests are copied without algorithm changes. Public metric exports remove internal source-path references only. Technical tests, real-data integration, source provenance, privacy review, and legal authorization are separate gates. `check_release.py` distinguishes source limitations from unresolved permissions, verifies an explicit hash-bound proposed payload inventory, and excludes only recognized non-payload Git/cache/run metadata. Private authorization evidence is no longer required in that public inventory; only an explicitly supplied external review directory may provide it. Missing evidence, real content mismatch, missing files, payload hash drift, unknown files and absent final human review still fail. Synthetic tests do not approve this candidate. Machine checks cannot establish the legal sufficiency or authenticity of a human approval.
+The 2026-10-16 maintenance check passed **77 CPU tests**, **five CLI help checks**, and **all 18 frozen statistical slots** against the reference (absolute tolerance 1e-12; maximum observed difference 0). The payload remains 60 files, with no content findings from the unchanged release scanner. These technical results are separate from its retained approval-gate result below.
 
-The 52 views represent 30 parents. The hierarchical CI crosses zero. Position-index matching is not external physical-device or timestamp verification. This subset is not independent OOD evidence and does not establish causal channel effects or universal module preference.
+The unchanged `scripts/check_release.py` separately checks payload integrity, source provenance, and evidence-based approval. With the preserved historical approval flags and no external private review store, it can return **NOT_READY (exit 2)** even when payload checks pass. That result must not be called a frozen-statistic reproduction failure or used to deny the observed PUBLIC visibility. Conversely, PUBLIC visibility is not a substitute for rights-review evidence. Genuine missing files, content mismatches, unknown payload files, and hash drift remain findings; no checker or test is weakened by this update.
+
+## Source provenance
+
+Current official archives match all **530** frozen evaluation files exactly, including all **82** subset files: **LEVEL 2**. Original historical download-archive identity and an upstream-authenticated historical checksum remain unverified; **LEVEL 1 is not claimed**. Current official content equality is not official authentication of the historical downloaded archive. Correctly disclosed LEVEL 2 evidence can pass the source gate with limitations; it is not itself a publication or rights decision.
+
+## Licensing and third-party limitations
+
+The implemented author grants are MIT for **15** enumerated original Python scripts/tests, CC BY 4.0 for original prose in **11** inventoried documents, and CC BY 4.0 for the author's licensable original pair-mapping/hash-index organization and metadata/metric/statistical compilations. Copyright is 2026 Peng Zhang. Software authorship is distinct from paper authorship; the author's declaration is not an independently signed legal certification. The standard license texts and third-party exceptions remain unchanged. See [LICENSING.md](LICENSING.md), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), and [docs/LICENSE_NOTES.md](docs/LICENSE_NOTES.md).
+
+Specific remaining uncertainties concern SMAP/MSL telemetry/annotation terms, first-anomaly/boundary/index metadata, possible substantial source-index/database extraction, and the applicability of Exathlon's data conditions to retained derived materials. The full Exathlon candidate scope is broader than its three strict parents. Public availability does not resolve those uncertainties. Existing source conditions must be satisfied where applicable; author-created facts, code, prose and independent model numbers must not automatically be treated as source adaptations. Unresolved applicable scope remains **NEEDS_RIGHTS_HOLDER_CONFIRMATION**, without inventing a blanket extra written-permission requirement for every mapping or number.
+
+## Historical release-gate context
+
+The original preparation candidate was **NOT_READY** and its sanitized summary recorded **PUBLIC_RELEASE_NOT_APPROVED**. The author subsequently made the repository public. Those are facts from different stages: the former describes the pre-publication evidence gate; the latter describes actual current visibility.
+
+Historical approval booleans in `manifests/release_authorization.json` and the license-scope records are retained, explicitly contextualized, and not silently promoted to verified rights clearance. Current repository status is recorded separately. Historical provenance hashes remain historical; `manifests/release_allowlist.json` binds current payload bytes and excludes its own self-hash. Updated document/data-scope hashes do not change scientific values or create new permission evidence.
+
+Private declarations, correspondence, signatures and internal reports are not public payload. The checker can use only an explicitly supplied external review directory through `--authorization-root`; this maintenance supplies no new private legal evidence and does not fabricate historical approval. Technical validation, public visibility, and third-party rights remain separate matters.
 
 Original prose: Copyright (c) 2026 Peng Zhang, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); retain attribution/license notices and indicate changes. Underlying facts/data and third-party rights are not newly licensed; see [LICENSING.md](LICENSING.md).

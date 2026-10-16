@@ -14,10 +14,30 @@
   "third_party_scope": "EXCEPTIONS_PRESERVED_SPECIFIC_SCOPE_UNCERTAINTIES_DISCLOSED",
   "private_evidence_distributed": false,
   "private_review_policy": "The author-side checker may use an explicitly supplied review directory outside this package. Internal statements, emails and signatures are not public payload. A status string alone never grants publication permission.",
-  "scope_sha256": "0d67f85c18fb8917b8b56496e8904df24f0533b7fdb581c35d9c289d62b9e303",
+  "scope_sha256": "e9d1679f02ed5805ae1068ab190cb4e7887c0ac49d1a3ed5fa5ad02691026f67",
   "data_license_choice_status": "DECIDED_AND_IMPLEMENTED",
   "data_license_scope": "Only author-licensable original contributions in data_license_scope.json; third-party exceptions preserved",
   "local_preparation_authorized": true,
   "remote_repository_creation_authorized": false,
-  "remote_upload_authorized": false
+  "remote_upload_authorized": false,
+  "historical_scope_sha256": "0d67f85c18fb8917b8b56496e8904df24f0533b7fdb581c35d9c289d62b9e303",
+  "status_context": "Historical pre-publication approval flags are retained below; they do not describe current GitHub visibility or certify third-party rights clearance. Current PUBLIC status is recorded separately.",
+  "current_repository_status": {
+    "url": "https://github.com/zhang-pengui/TSB-AD-UM-Matched-Subset",
+    "visibility": "PUBLIC",
+    "default_branch": "main",
+    "verified_on": "2026-10-16",
+    "verification_basis": "GitHub API; verification date is not the original publication date",
+    "rights_clearance_inferred": false
+  },
+  "current_maintenance_authorization": {
+    "basis": "Explicit author instruction for this maintenance task on 2026-10-16; not private rights-review evidence",
+    "scope": "Existing tracked documentation, citation and release/hash metadata only",
+    "commit_and_push_to_existing_main_authorized": true,
+    "visibility_change_authorized": false,
+    "new_repository_release_or_tag_authorized": false,
+    "scientific_payload_change_authorized": false,
+    "third_party_rights_clearance_certified": false
+  },
+  "scope_sha256_context": "Current payload digest for consistency checks, excluding this authorization record and the allowlist to avoid cycles; historical_scope_sha256 preserves the pre-maintenance digest. Neither digest creates approval evidence."
 }

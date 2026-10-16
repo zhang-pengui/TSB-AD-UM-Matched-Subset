@@ -33,7 +33,7 @@
   "files": [
     {
       "path": "CITATION.cff",
-      "sha256": "974826261e0839bd3aeb4cc472316f9aca48b3b5b8d9e075552c6fd5289c5539",
+      "sha256": "c8768302b4b8a91b55e6e99ecaa9ca3d494bd35b142b1bec5fa63e71e25de0cc",
       "license": "CC-BY-4.0",
       "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
     },
@@ -169,5 +169,14 @@
       "license": "CC-BY-4.0",
       "covered_content": "Author-licensable original organization, compilation and explanations only; third-party exclusions apply"
     }
-  ]
+  ],
+  "approval_flags_context": "Historical pre-publication approval flags are retained below; they do not describe current GitHub visibility or certify third-party rights clearance. Current PUBLIC status is recorded separately.",
+  "current_repository_status": {
+    "url": "https://github.com/zhang-pengui/TSB-AD-UM-Matched-Subset",
+    "visibility": "PUBLIC",
+    "default_branch": "main",
+    "verified_on": "2026-10-16",
+    "verification_basis": "GitHub API; verification date is not the original publication date",
+    "rights_clearance_inferred": false
+  }
 }
